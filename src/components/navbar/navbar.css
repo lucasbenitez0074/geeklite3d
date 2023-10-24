@@ -20,14 +20,14 @@ font-family: 'Signika', sans-serif;
     background-color: #2E3054;
     width: 80%;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
     
 }
 
 .logo {
+    justify-self: center;
     width: 7.5rem;
     height: 6.25rem;
     background-color: white;
