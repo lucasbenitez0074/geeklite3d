@@ -1,0 +1,15 @@
+.appContainer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas: 
+    "nb nb rt rt rt rt rt rt"
+    "nb nb rt rt rt rt rt rt"
+    "nb nb rt rt rt rt rt rt"
+    "nb nb rt rt rt rt rt rt"
+    "nb nb rt rt rt rt rt rt"
+    "nb nb rt rt rt rt rt rt"
+    "nb nb rt rt rt rt rt rt"
+    ;
+    
+}

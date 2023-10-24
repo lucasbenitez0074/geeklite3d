@@ -1,0 +1,7 @@
+h1 {
+    grid-area: rt;
+    font-size: 9rem;
+    color: black;
+    text-align: center;
+    font-family: 'Risque', serif;
+}

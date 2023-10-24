@@ -1,0 +1,28 @@
+
+.cartContainer {
+    position: absolute;
+    display: flex;
+    margin-top: 10.3125rem;
+}
+
+.cartWidget {
+    font-size: 3.5rem;
+    color: white;
+    cursor: pointer;
+    
+}
+.counterCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #EB6B94;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2.1875rem;
+    left: 3rem;
+}
