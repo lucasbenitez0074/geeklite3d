@@ -1,0 +1,7 @@
+h1 {
+  grid-area: ti;
+  font-size: 8.75rem;
+  color: #2e3054;
+  font-family: "Risque", serif;
+  justify-self: center;
+}

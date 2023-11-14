@@ -1,7 +1,7 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CartWidget from '../cartWidget/CartWidget';
 import './navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar =({ links })=> {
 
@@ -17,7 +17,9 @@ const Navbar =({ links })=> {
                         <div className='listItemIcon'>
                         <FontAwesomeIcon icon={element[0]} />
                         </div>
-                        <a href=''>{element[1]}</a>
+                        <Link to={`${element[1]}`}>
+                        {element[1]}
+                        </Link>
                     </li>
                 ))}
             </ul>

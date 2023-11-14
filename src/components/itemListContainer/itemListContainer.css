@@ -1,7 +1,7 @@
-h1 {
-    grid-area: rt;
-    font-size: 8.75rem;
-    color: #2E3054;
-    text-align: center;
-    font-family: 'Risque', serif;
+.listContainer {
+    grid-area: rt1;
+    height: 100vh;
+}
+.categoriasNav {
+    background-color: #2E3054;
 }

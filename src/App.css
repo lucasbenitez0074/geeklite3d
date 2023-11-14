@@ -1,15 +1,14 @@
 .appContainer {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    grid-template-areas: 
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-areas:
     "nb nb rt rt rt rt rt rt"
-    "nb nb rt rt rt rt rt rt"
-    "nb nb rt rt rt rt rt rt"
-    "nb nb rt rt rt rt rt rt"
-    "nb nb rt rt rt rt rt rt"
-    "nb nb rt rt rt rt rt rt"
-    "nb nb rt rt rt rt rt rt"
-    ;
-    
+    "nb nb ti ti ti ti ti ti"
+    "nb nb rt1 rt1 rt1 rt1 rt1 rt1"
+    "nb nb rt1 rt1 rt1 rt1 rt1 rt1"
+    "nb nb rt1 rt1 rt1 rt1 rt1 rt1"
+    "nb nb rt1 rt1 rt1 rt1 rt1 rt1"
+    "nb nb rt1 rt1 rt1 rt1 rt1 rt1";
 }
