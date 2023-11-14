@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react"
 import ItemList from "../itemList/ItemList";
-import Categorias from "../categorias/categorias";
+import Categorias from "../categorias/Categorias";
 import "./itemListContainer.css"
 import { useParams } from "react-router-dom";
 
